@@ -13,3 +13,6 @@ plt.title('Exam Scores Histogram')
 
 # Show histogram
 plt.show()
+
+
+

@@ -1,4 +1,4 @@
-# Activity 5 - Task 1 (Finding min and max value from the array of vales)
+# Activity 5 - Task 1 (Finding min and max value from the array of values)
 import numpy as np
 
 # Test score data
