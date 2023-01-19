@@ -1,4 +1,4 @@
-#Activity_2_Task_3
+#Activity 2 - Task 3
 import matplotlib.pyplot as plt
 import numpy as np
 
