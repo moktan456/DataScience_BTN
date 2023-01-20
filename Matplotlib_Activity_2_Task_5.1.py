@@ -11,7 +11,7 @@ fig, ax = plt.subplots()
 ax.plot(x,std1, label = 'std_1')
 ax.plot(x,std2, label = 'std_2')
 
-ax.fill_between(x,std1,std2, where=(std1>std2),interpolate=True, color='green')
+ax.fill_between(x,std1,std2, where=(std1>std2),interpolate=False, color='green')
 
 ax.set_xlabel('Subject')
 ax.set_ylabel('Score')
