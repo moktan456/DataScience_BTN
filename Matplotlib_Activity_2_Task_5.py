@@ -14,7 +14,7 @@ ax.plot(x, y1, label='y1')
 ax.plot(x, y2, label='y2')
 
 # Fill the area between the two lines
-ax.fill_between(x, y1, y2, where=(y1 > y2), interpolate=True, color='gray')
+ax.fill_between(x, y1, y2, where=(y1 > y2), interpolate=False, color='gray')
 
 # Add labels and a legend
 ax.set_xlabel('x')
