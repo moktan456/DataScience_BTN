@@ -1,11 +1,9 @@
-# Activity 4 - Task 2
-# Scalar multiplication of matrix
+
 import numpy as np
 
-# Array of height in cm
-height_cm = np.array([187,150,165,172])
 
-# Converted array of height in m
+height_cm = np.array([ 187,150,165,172,144,165,182,174,176,170,168,154])
+
 
 height_m = height_cm * 1/100
 

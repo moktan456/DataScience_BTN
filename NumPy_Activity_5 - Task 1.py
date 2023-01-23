@@ -1,20 +1,28 @@
-# Activity 5 - Task 1 (Finding min and max value from the array of values)
+
 import numpy as np
 
-# Test score data
-scores = np.array([55,67,85,45,79,63,92,80,76,35])
 
-# Finding the min score
+population = np.array([17820, 68966, 24965, 3952, 13655,
+                   14437, 37150, 46316, 23632, 28740,
+                   35079, 62590, 46004,138736, 17300,
+                   45518, 19960, 22376, 42186, 17736])
 
-min_score = scores.min()
+min_pop = population.min()
+print(f"The minimum population is : {min_pop}")
 
-print(f"The minimum score is : {min_score}")
 
 
-# Finding the max score
+max_pop = population.max()
+print(f"The maximum population is : {max_pop}")
 
-max_score = scores.max()
-print(f"The maximum score is : {max_score}")
+
+range_pop = population.ptp()
+print(f"The difference between min and max population is: {range_pop}")
+
+
+
+
+
 
 
 

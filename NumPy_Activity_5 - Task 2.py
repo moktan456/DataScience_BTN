@@ -1,26 +1,25 @@
-# Activity 5 - Task 2 (Finding mean and median for the given set of data)
+
 import numpy as np
 
-# Test score data
-scores = np.array([55,67,85,45,79,63,92,80,76,35])
 
-# Finding the mean score
+population = np.array([17820, 68966, 24965, 3952, 13655,
+                   14437, 37150, 46316, 23632, 28740,
+                   35079, 62590, 46004,138736, 17300,
+                   45518, 19960, 22376, 42186, 17736])
 
-#mean_score = round(scores.mean(),1)
+mean_pop = round(np.mean(population),1)
 
-# or
-
-mean_score = round(np.mean(scores),1)
-
-print(f"The mean score is : {mean_score}")
+print(f"The mean population is : {mean_pop}")
 
 
-# Finding the median score
+med_pop = np.median(population)
+print(f"The median population is : {med_pop}")
 
-med_score = np.median(scores)
-print(f"The median score is : {med_score}")
+var_pop = round(np.var(population),1)
+print(f"The variance is : {var_pop}")
 
-
+std_pop = round(np.std(population),1)
+print(f"The standard deviation is: {std_pop}")
 
 
 

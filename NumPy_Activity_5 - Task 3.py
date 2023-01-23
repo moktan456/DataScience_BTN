@@ -1,28 +1,22 @@
-# Activity 5 - Task 3 (Finding range, standard deviation and variance for
-# the given set of data)
+
 import numpy as np
 
-# Test score data
-scores = np.array([55,67,85,45,79,63,92,80,76,35])
 
-# Finding the range
+population = np.array([17820, 68966, 24965, 3952, 13655,
+                   14437, 37150, 46316, 23632, 28740,
+                   35079, 62590, 46004,138736, 17300,
+                   45518, 19960, 22376, 42186, 17736])
 
+Q1 = np.quantile(population,0.25)
+print(f'The lower quartile Q1 is: {Q1}')
 
-data_range = np.ptp(scores)
+# Q2 is median
+Q2 = np.quantile(population,0.5)
+print(f'The lower quartile Q2 is: {Q2}')
 
-print(f"The range value is : {data_range}")
+Q3 = np.quantile(population,0.75)
+print(f'The lower quartile Q3 is: {Q3}')
 
-
-# Finding the standard deviation
-
-data_std = round(np.std(scores),1)
-print(f"The standard deviation is : {data_std}")
-
-# Finding the variance
-
-data_var = round(np.var(scores),1)
-
-print(f"The variance is : {data_var}")
 
 
 
